@@ -25,7 +25,6 @@ namespace PolytechHomeworks
             List<String> combinations = new List<string>();
             
             // Передаём список в функцию рекурсивного поиска комбинаций
-            // Можно было бы использовать ref, но в нашем случае это не имеет смысла
             FindCombinations(combinations);
             
             // Проверяем список на наличие элементов
